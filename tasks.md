@@ -5,9 +5,9 @@
 ### 0-1: プロジェクト初期化
 | # | タスク | 状態 | 成果物 |
 |---|--------|------|--------|
-| 0-1-1 | Expo TypeScript プロジェクト作成 (`create-expo-app`) | [ ] | `package.json`, `app.json` |
+| 0-1-1 | Expo TypeScript プロジェクト作成 (`create-expo-app`) | [x] | `package.json`, `app.json` |
 | 0-1-2 | Expo prebuild 設定 | [ ] | `ios/`, `android/` |
-| 0-1-3 | 依存パッケージインストール (`onnxruntime-react-native`, `react-native-skia`, `vision-camera`, `expo-file-system`, `zustand`, `react-navigation`) | [ ] | `package.json` |
+| 0-1-3 | 依存パッケージインストール (`onnxruntime-react-native`, `react-native-skia`, `vision-camera`, `expo-file-system`, `zustand`, `react-navigation`) | [x] | `package.json` |
 | 0-1-4 | iOS 実機ビルド確認 | [ ] | — |
 | 0-1-5 | Android 実機ビルド確認 | [ ] | — |
 

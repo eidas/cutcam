@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "CutCam",
+    "slug": "cutcam",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.cutcam.app",
+      "infoPlist": {
+        "NSCameraUsageDescription": "CutCam needs camera access to composite images with the live camera feed.",
+        "NSPhotoLibraryUsageDescription": "CutCam needs photo library access to select and save images."
+      }
+    },
+    "plugins": [
+      "expo-image-picker",
+      [
+        "react-native-vision-camera",
+        {
+          "cameraPermissionText": "CutCam needs camera access to composite images with the live camera feed."
+        }
+      ]
+    ],
+    "android": {
+      "package": "com.cutcam.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
