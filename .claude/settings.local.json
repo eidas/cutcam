@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./gradlew.bat app:assembleDebug:*)",
+      "Bash(node:*)",
+      "Bash(pnpm add:*)",
+      "Bash(java:*)",
+      "Bash(./gradlew.bat:*)",
+      "Bash(pnpm approve-builds:*)",
+      "Bash(pnpm install:*)"
+    ]
+  }
+}
